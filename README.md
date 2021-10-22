@@ -42,10 +42,9 @@ At third console,
 source ./install/setup.bash
 rviz2 ./install/rplidar_ros/share/rplidar_ros/rviz/rplidar.rviz
 ```
-Rviz set,
-note! 
-set frame into laser_frame  ,not laser
-add laser scan 
+
+Note: In Rviz settings, set "Fixed Frame" to `laser_frame`
+
 You should see rplidar's scan result in the rviz.
 
 II. Run rplidar node and view using test application
