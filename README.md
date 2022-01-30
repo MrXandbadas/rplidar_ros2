@@ -23,13 +23,13 @@ rplidar Tutorial:  https://github.com/robopeak/rplidar_ros/wiki
 
 ## Compile & Install rplidar_ros2 package
 
-1. Clone rplidar_ros2 package from github : 
+1. Clone rplidar_ros2 package from github into the src folder in your ROS 2 workspace: 
 
    ```bash
    git clone -b ros2 https://github.com/MrXandbadas/rplidar_ros2.git
    ``` 
 
-2. Build rplidar_ros2 package :
+2. Navigate to your workspace folder and Build rplidar_ros2 package :
 
    ```bash
    cd <your_own_ros2_ws>
@@ -38,7 +38,7 @@ rplidar Tutorial:  https://github.com/robopeak/rplidar_ros/wiki
    if you find output like "colcon:command not found",you need separate [install colcon](https://docs.ros.org/en/foxy/Tutorials/Colcon-Tutorial.html#install-colcon) build tools. 
 
   
-3. Package environment setup :
+3. From your workspace folder Package environment setup :
     ```bash
     source ./install/setup.bash
     ```
