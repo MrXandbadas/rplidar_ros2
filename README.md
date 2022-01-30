@@ -26,7 +26,7 @@ rplidar Tutorial:  https://github.com/robopeak/rplidar_ros/wiki
 1. Clone rplidar_ros2 package from github : 
 
    ```bash
-   git clone -b ros2 https://github.com/slamtec/rplidar_ros.git
+   git clone -b ros2 https://github.com/MrXandbadas/rplidar_ros2.git
    ``` 
 
 2. Build rplidar_ros2 package :
